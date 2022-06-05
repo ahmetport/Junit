@@ -39,7 +39,7 @@ public class DENEME1 extends TestBase {
 
         // parent iframe e geri donun
         driver.switchTo().parentFrame();
-        Thread.sleep(3000);
+
 
         // formu doldurun,(Formu istediğiniz metinlerle doldurun)
         Actions actions = new Actions(driver);
