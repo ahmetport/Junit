@@ -40,7 +40,7 @@ public class soru5 {
         String başlık=driver.getTitle();
         String aranankelime="Google";
         Assert.assertTrue(başlık.contains(aranankelime));
-        Thread.sleep(3000);
+
 
     }
     @Test
