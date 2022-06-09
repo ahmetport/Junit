@@ -68,7 +68,7 @@ public class soru8 extends TestBase {
         //10.Ilk sayfaya donuldugunu test edin
         String actualHandleDegeri=driver.getWindowHandle();
         Assert.assertEquals(ilkHandleGegeri,actualHandleDegeri);
-        Thread.sleep(3000);
+
 
 
 
