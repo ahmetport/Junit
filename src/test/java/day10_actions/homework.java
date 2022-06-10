@@ -34,12 +34,7 @@ public class homework extends TestBase {
 
        // 7-“Click and hold" kutusunda cikan yaziyi yazdirin
         WebElement mesaj1=driver.findElement(By.xpath("//div[@id='click-box']"));
-        Thread.sleep(2000);
-        System.out.println(mesaj1.getText());
-        // 8- “Double click me" butonunu cift tiklayin
-        Actions actions2=new Actions(driver);
-        WebElement çiftTıkla=driver.findElement(By.tagName("h2"));
-        actions2.doubleClick(çiftTıkla).perform();
+
 
          */
 
