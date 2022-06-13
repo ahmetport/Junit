@@ -16,7 +16,7 @@ public class C01_Mavenilkclass {
 
         driver.get("https://www.amazon.com");
 
-        driver.close();
+       // driver.close();
 
 
     }

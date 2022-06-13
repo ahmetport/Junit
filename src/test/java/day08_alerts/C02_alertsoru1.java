@@ -67,7 +67,6 @@ public class C02_alertsoru1 {
             String sonucYazisiStr=sonucYazisiElementi.getText();
             String girilenIsim="Emre Karasu";
 
-            Assert.assertTrue(sonucYazisiStr.contains(girilenIsim));
 
         }
     }
