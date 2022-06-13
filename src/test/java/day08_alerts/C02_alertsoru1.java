@@ -65,7 +65,7 @@ public class C02_alertsoru1 {
             driver.switchTo().alert().accept();
             WebElement sonucYazisiElementi= driver.findElement(By.xpath("//p[@id='result']"));
             String sonucYazisiStr=sonucYazisiElementi.getText();
-            String girilenIsim="Emre Karasu";
+
 
 
         }
