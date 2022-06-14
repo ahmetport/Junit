@@ -38,8 +38,6 @@ public class tekrara {
         if (sepet.isDisplayed()){
             System.out.println("Urunun basarili sekilde sepete ekleme testi PASSED");
         }else System.out.println("Urunun basarili sekilde sepete ekleme testi FAILED");
-        //9. Sayfayi kapatin
-        driver.close();
 
     }
 }
