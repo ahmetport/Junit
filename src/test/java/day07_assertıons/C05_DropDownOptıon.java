@@ -48,7 +48,7 @@ public class C05_DropDownOptıon {
 
         List<WebElement>optıonslarınListesi=select.getOptions();
         int actualoptıonsayısı=optıonslarınListesi.size();
-        int expected=28;
+        int expected=26;
         Assert.assertEquals(actualoptıonsayısı,expected);
 
 
