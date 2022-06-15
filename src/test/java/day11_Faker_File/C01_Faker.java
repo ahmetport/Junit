@@ -48,6 +48,7 @@ public class C01_Faker extends TestBase {
                 .sendKeys(Keys.ENTER)
                 .perform();
         Thread.sleep(5000);
+        System.out.println("hele hele antepli");
     }
 
 }
