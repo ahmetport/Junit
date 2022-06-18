@@ -22,6 +22,7 @@ public class mp3İndir extends TestBase {
         Thread.sleep(3000);
      //driver.findElement(By.xpath("//img[@src='images/indir-buton.png']")).click();
      driver.findElement(By.linkText("play")).click();
+     driver.close();
 
 
 
