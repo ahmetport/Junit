@@ -29,7 +29,7 @@ public class C02_alertsoru1 {
         }
         @AfterClass
         public static void tearDown(){
-           // driver.quit();
+           // driver.quit
         }
         @Test
         public void acceptAlert(){
